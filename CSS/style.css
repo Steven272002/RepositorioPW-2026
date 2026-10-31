@@ -1,0 +1,106 @@
+/*  Estilos generales  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*  Encabezado  */
+header {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/*  Menu de navegacion  */
+nav {
+    background-color: #8b1a1a;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+/* Cuando pongo el mouse encima de mi menu cambia color */
+nav a:hover {
+    background-color: #501ed0;
+}
+
+/* Secciones cajas blancas */
+section {
+    background-color: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Primera seccion todo centrado */
+.presentacion {
+    text-align: center;
+}
+
+/* ===== Imagen ===== */
+.imagen {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 260px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/*  Contenido principal  */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Las secciones dentro de main ocupan todo el ancho de main */
+main section {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #8b1a1a;
+}
+
+h3 {
+    margin-top: 0;
+    color: #8b1a1a;
+}
+
+/*  Contacto  */
+.contacto {
+    text-align: center;
+}
+
+/*  Pie de pagina de los derechos */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
